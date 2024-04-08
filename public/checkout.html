@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Accept a payment</title>
+    <meta name="description" content="A demo of a payment on Stripe" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+    <script src="checkout.js" defer></script>
+    <style>
+      /* Center the pricing table */
+      #checkout {
+        display: flex;
+        justify-content: center; /* Horizontally center the content */
+        align-items: center; /* Vertically center the content */
+        height: 100vh; /* Optionally, adjust the height of the container */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Display a payment form -->
+    <div id="checkout">
+      <stripe-pricing-table
+        pricing-table-id="prctbl_1P3DZ5P80Ea2hQchdyH6md6a"
+        publishable-key="pk_test_51P3DHGP80Ea2hQch0tCJYClL7HJvKJ8floUTmpBomYRtJhT5DZQ6P5XoTP5r1gKOhz7Nc8HyNtLF7BZntVOvtHen00tEVG3wIi"
+      >
+      </stripe-pricing-table>
+    </div>
+  </body>
+</html>
