@@ -2,7 +2,7 @@
 
 Stripe Checkout is the fastest way to get started with payments. Included are some basic build and run scripts you can use to start up the application.
 
-## Running the sample
+## Running the Form
 
 1. Run the server
 
